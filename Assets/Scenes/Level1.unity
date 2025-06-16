@@ -207,7 +207,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &54666533
 RectTransform:
@@ -328,7 +328,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7474284717779528977, guid: bd41f1be891bc9644a787ad1641a7ad5, type: 3}
   m_PrefabInstance: {fileID: 5927990539906818414}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &125448530
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2378,6 +2377,7 @@ GameObject:
   - component: {fileID: 768933253}
   - component: {fileID: 768933255}
   - component: {fileID: 768933254}
+  - component: {fileID: 768933256}
   m_Layer: 5
   m_Name: Inventory (2)
   m_TagString: Untagged
@@ -2444,6 +2444,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768933252}
   m_CullTransparentMesh: 1
+--- !u!114 &768933256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768933252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663ac1385fe53584895e579ab4b39580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponInfo: {fileID: 11400000, guid: 4666492059acdd84a98c467350fb6b9b, type: 2}
 --- !u!1 &771276359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,6 +2468,7 @@ GameObject:
   - component: {fileID: 771276360}
   - component: {fileID: 771276362}
   - component: {fileID: 771276361}
+  - component: {fileID: 771276363}
   m_Layer: 5
   m_Name: Inventory (1)
   m_TagString: Untagged
@@ -2521,6 +2535,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771276359}
   m_CullTransparentMesh: 1
+--- !u!114 &771276363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771276359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663ac1385fe53584895e579ab4b39580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponInfo: {fileID: 11400000, guid: ba2f9e6dc03c1a946913a32518287a52, type: 2}
 --- !u!1001 &774529479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2594,6 +2621,7 @@ GameObject:
   - component: {fileID: 778909590}
   - component: {fileID: 778909592}
   - component: {fileID: 778909591}
+  - component: {fileID: 778909593}
   m_Layer: 5
   m_Name: Inventory (4)
   m_TagString: Untagged
@@ -2660,6 +2688,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778909589}
   m_CullTransparentMesh: 1
+--- !u!114 &778909593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778909589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663ac1385fe53584895e579ab4b39580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponInfo: {fileID: 0}
 --- !u!4 &791956274 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5315030237580354655, guid: 0204fc9bc2e802944a1a51178db02151, type: 3}
@@ -2681,6 +2722,7 @@ GameObject:
   - component: {fileID: 796676515}
   - component: {fileID: 796676517}
   - component: {fileID: 796676516}
+  - component: {fileID: 796676518}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -2747,6 +2789,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796676514}
   m_CullTransparentMesh: 1
+--- !u!114 &796676518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796676514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663ac1385fe53584895e579ab4b39580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponInfo: {fileID: 11400000, guid: 1074ee86ec0dc6e448c502a04fadb0ec, type: 2}
 --- !u!4 &797435783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8546792795527809301, guid: f0a707970e4808a4fab2e512d3b4206f, type: 3}
@@ -22878,6 +22933,7 @@ GameObject:
   - component: {fileID: 1899246194}
   - component: {fileID: 1899246196}
   - component: {fileID: 1899246195}
+  - component: {fileID: 1899246197}
   m_Layer: 5
   m_Name: Inventory (3)
   m_TagString: Untagged
@@ -22944,6 +23000,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899246193}
   m_CullTransparentMesh: 1
+
 --- !u!1001 &1911855240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23715,7 +23772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2377907309094222942, guid: f992b9736bbca9f4080699dce6094cd0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.95
+      value: 8.37
       objectReference: {fileID: 0}
     - target: {fileID: 2377907309094222942, guid: f992b9736bbca9f4080699dce6094cd0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23764,11 +23821,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 815713861808863751, guid: 230420fbe2ad6e245a11a69f54eeaa9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.05
+      value: -14.99
       objectReference: {fileID: 0}
     - target: {fileID: 815713861808863751, guid: 230420fbe2ad6e245a11a69f54eeaa9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.74
+      value: -8.95
       objectReference: {fileID: 0}
     - target: {fileID: 815713861808863751, guid: 230420fbe2ad6e245a11a69f54eeaa9a, type: 3}
       propertyPath: m_LocalPosition.z
